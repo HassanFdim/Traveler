@@ -1,0 +1,27 @@
+body {
+  font-family: "Marcellus", serif;
+  margin: 0px;
+}
+ul {
+  list-style: none;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px, auto;
+}
+.navul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+button {
+  color: white;
+  border: 5px;
+  padding: 15px 30px;
+  background-color: #3f95ec;
+}
