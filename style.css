@@ -22,12 +22,15 @@ ul {
 button {
   color: white;
   border: 5px;
-  padding: 15px 30px;
+  padding: 10px 0px;
+  width: 120px;
   background-color: #3f95ec;
 }
 #hero {
   width: 80%;
   margin: 0px auto;
+  height: 100vh;
+  overflow: hidden;
 }
 .hero-img {
   width: 100%;
