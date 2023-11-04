@@ -9,7 +9,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px, auto;
+  margin: 0px 0px 36px 0px;
 }
 .navul {
   display: flex;
@@ -24,4 +24,24 @@ button {
   border: 5px;
   padding: 15px 30px;
   background-color: #3f95ec;
+}
+#hero {
+  width: 80%;
+  margin: 0px auto;
+}
+.hero-img {
+  width: 100%;
+  margin: 12px 0px 0px 0px;
+}
+.hero-tittle {
+  font-size: 62px;
+  width: fit-content;
+}
+.hero-p {
+  width: 47%;
+}
+.title2 {
+  display: flex;
+  gap: 3%;
+  align-items: center;
 }
