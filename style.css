@@ -19,7 +19,7 @@ ul {
   background-size: cover;
   background-position: center;
 }
-button {
+.primary-button {
   color: white;
   border: 5px;
   padding: 10px 0px;
@@ -103,4 +103,46 @@ button {
 }
 .card-title {
   font-size: 20px;
+}
+.second-gallery-title {
+  display: flex;
+  gap: 3%;
+  justify-content: space-between;
+  font-size: 35px;
+  margin-bottom: 25px;
+  color: hsl(0, 0%, 0%);
+}
+#second-gallery {
+  background-color: white;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  width: 80%;
+  margin: 0px auto;
+  color: hsl(0, 0%, 100%);
+}
+.card-img-2 {
+  width: 100%;
+  height: 550px;
+}
+.second-gallery-img {
+  display: grid;
+  grid-template-columns: 0.7fr 2fr 0.7fr;
+  grid-column-gap: 24px;
+}
+.img-center {
+  background-image: url("images/maur-img-2.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  padding: 25px;
+}
+.section-3-title {
+  font-size: 20px;
+  color: white;
+}
+.button-s-g {
+  border: 1px solid white;
+  display: inline-block;
+  padding: 10px;
+  font-size: medium;
 }
